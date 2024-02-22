@@ -1,0 +1,39 @@
+h1 {
+  text-decoration: underline;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculator {
+  border: 2px solid #333;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+
+#display {
+  width: 100%;
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ddd;
+}
