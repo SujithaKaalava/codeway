@@ -1,0 +1,157 @@
+/* *{
+  background:linear-gradient(50deg,gray,rgb(204, 107, 175),rgb(62, 174, 100));
+} */
+body {
+  font-family: 'Comic sans MS', sans-serif;
+  padding: 0;
+  margin: 0 auto;
+  /* background:linear-gradient(50deg,gray,rgb(62, 174, 100)); */
+  background-color: rgb(232, 223, 223) ;
+
+}
+
+table.nav-table {
+  border: 0;
+  /* background:linear-gradient(45deg,pink,rgb(105, 143, 115),rgb(83, 175, 109));
+   */
+   background-color: rgb(13, 68, 43);
+  padding:25px;
+  cellpadding:0;
+  cellspacing: 0;
+  width: 100%;
+  margin: 0;
+  color:white
+  /* position: sticky;
+  top: 0;
+  z-index: 100; */
+}
+header{
+  position: sticky;
+  top:0;
+  /* z-index:5; */
+  /* width: 100%; */
+}
+.nav:hover{
+color: blue;
+}
+
+.portfolio-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.nav-link  {
+  text-decoration: none;
+  font-family: 'Verdana', sans-serif;
+  font-size: 18px;
+  color: white;
+  padding: 0 10px;
+}
+.nav-link:hover{
+  background-color:chartreuse ;
+}
+.home_start{
+  background-color: rgb(232, 223, 223);
+  color: black;
+  padding:40px;
+  text-align: center;
+  height:90px;
+  /* width: 100%; */
+  /* z-index: 10; */
+}
+.profile-img-container{
+  border-radius: 75%;
+  overflow: hidden;
+}
+.profile-img {
+  width: 100%;
+  height: auto;
+  border-radius: 75%;
+}
+.aboutme{
+  padding:0;
+  width:100%;
+  text-align: left;
+  color: black;
+
+  z-index: 10;
+  background-color: rgb(232, 223, 223) ;
+}
+.about{
+  padding-bottom: 80px;
+}
+
+.footer{
+  background-color:rgb(66, 85, 66);
+  position:sticky;
+  bottom: 0;
+  padding: 10px;
+  /* text-align: left; */
+  font-weight: 10px;
+  font-style: oblique ;
+  background:linear-gradient(45deg,pink,rgb(105, 143, 115),rgb(83, 175, 109));
+}
+#achievements,#projects{
+  padding: 15px;
+  border:1px solid white;
+  background-color:#ddd ;
+  display:block;
+  width: 1000px;
+  /* height:500px */
+  font-size: 20px;
+  border-radius: 20%;
+  padding: 50px;
+  margin: 20px;
+  background: linear-gradient(40deg,rgb(38, 94, 64),gray);
+}
+.fa fa-user-circle{
+  color: black;
+}
+#contact{
+  padding: 40px;
+  /* color:black;
+  text-decoration: none; */
+}
+a{
+  color:black;
+  text-decoration: none;
+}
+.footer-table{
+  width:100%;
+  /* cellspacing:3px; */
+  border-collapse: collapse;
+  /* border:1px solid white; */
+}
+.achievements{
+  border:1px solid gold;
+  display: flex;
+  background-color: #626463;
+  border-radius: 90px;
+
+  align-items:center;
+width: 70%;
+height:160px;
+
+}
+.text{
+  /* width: 70%; */
+  /* padding-right: 70px; */
+  /* padding: 40px; */
+  padding-left: 40px;
+  color: rgb(227, 221, 43);
+  
+}
+
+img{
+  width: 150px;
+  height:150px;
+  border-radius: 90px;
+  overflow: hidden;
+  
+  
+}
+.image{
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-image: url("https://cdn.codechef.com/download/Contest+images/ANTEST/landing+page.jpg"); */
+    background-color: #071A28;
+
+}
+.landingpage{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+.heading{
+    color: white;
+    font-family: Times;
+    font-size: 80px;
+    text-align: center;
+    /* padding: 50px; */
+}
